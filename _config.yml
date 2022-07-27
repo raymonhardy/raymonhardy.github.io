@@ -28,7 +28,6 @@ github_username:  raymonhardy
 
 # Build settings
 theme: minima
-# theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
