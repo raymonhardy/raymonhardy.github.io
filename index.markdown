@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+![Alt text](/assets/CarTetonsFinal.jpg "About Pic")
