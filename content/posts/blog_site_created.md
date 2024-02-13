@@ -67,6 +67,13 @@ Set up this blog website with Hugo Project and PaperMod Theme on mac computer:
 
 If you don't have any posts that show up it is because the "draft" flag in the post is not set to false. You will need to set that to false and build the server again with `hugo`. Recommit and push the repository and you will see the new post. 
 
+### Custom Domain:
+        - Go to Settings tab
+        - Go to Pages
+        - Under Custom Domain add your custom domain
+        - Will take a while to do DNS check
+        - Make sure your DNS records are pointing to github correctly
+
 Hope there are good things to come!
 
 ![Alt text](/images/IMG_0507.jpg "a title")
