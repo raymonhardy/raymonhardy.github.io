@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ray&#39;s Blog</title>
+    <link>https://raymonhardy.github.io/</link>
+    <description>Recent content on Ray&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Jul 2022 07:07:07 +0100</lastBuildDate>
+    <atom:link href="https://raymonhardy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>https://raymonhardy.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://raymonhardy.github.io/about/</guid>
+      <description>Security engineer just trying to keep up with the latest technology and threats.</description>
+    </item>
+    <item>
+      <title>The BASpi - A Configurable BACnet Raspberry Pi Hat</title>
+      <link>https://raymonhardy.github.io/posts/baspi_installation/</link>
+      <pubDate>Thu, 14 Jul 2022 07:07:07 +0100</pubDate>
+      <guid>https://raymonhardy.github.io/posts/baspi_installation/</guid>
+      <description>The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor. For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year.</description>
+    </item>
+    <item>
+      <title>Blog Created with Hugo</title>
+      <link>https://raymonhardy.github.io/posts/blog_site_created/</link>
+      <pubDate>Sat, 14 May 2022 07:07:07 +0100</pubDate>
+      <guid>https://raymonhardy.github.io/posts/blog_site_created/</guid>
+      <description>Like everyone else and their dog, I set up this blog website to post about personal projects in technology and other fun topics.
+Set up this blog website with Hugo Project and PaperMod Theme on mac computer:
+Doc URLs: Hugo Docs: https://gohugo.io/documentation/ PaperMod Docs: https://github.com/adityatelange/hugo-PaperMod/wiki/Features Hugo Deployment types: https://gohugo.io/getting-started/usage/ Deployment: Hugo Local Install and Server: - Mac Terminal: - `Brew Install Hugo` - `git init` - `git submodule add https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode themes/hugo-PaperMod` - `hugo server -D` Publish Files to Public Folder - Go to project in terminal - Build the published version by running: `hugo` GitHub Pages Deployment: - Go to Github.</description>
+    </item>
+  </channel>
+</rss>
