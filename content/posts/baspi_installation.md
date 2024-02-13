@@ -15,6 +15,8 @@ This was my first project I took on that was an industrial or commercial IoT dev
 
 <https://www.ccontrols.com/basautomation/baspi.php>
 
+-----
+
 ## BASpi Points Types Specifications
 
 When set up the BASpi acts a server allowing for both physical and virual points to be reached and communicated with. The following points are created when the BASpi server is running:
@@ -26,6 +28,8 @@ When set up the BASpi acts a server allowing for both physical and virual points
   - 24 Virtual Points used to read or write data to/from wire sheet by a BACnet client/supervisor station
 - 48 Web Components - allow live monitoring and forcing of wire sheet points from the BASpi's web page
 
+-----
+
 ## BASpi Setup Guide
 
 Comtemporary Controls list of references for hardware and software installation.
@@ -35,6 +39,8 @@ Comtemporary Controls list of references for hardware and software installation.
 - [BASpi Software Installation](https://www.ccontrols.com/pdf/is/BASPI-soft-install-guide.pdf "Hardware Installation")
 - [BASpi Image/Firmware Files](https://www.ccontrols.com/basautomation/baspisoftware.htm "Hardware Installation")
 
+------
+
 ### Hardware Requirements
 
 - BASpi HAT
@@ -42,12 +48,16 @@ Comtemporary Controls list of references for hardware and software installation.
 - 8GB or larger micro SD card
 - micro SD card to USB adapter
 
+------
+
 ### Software Requirements
 
 Two Software Installation types:
 
 - Method A - Flash a Micro SD with pre-built Raspbian OS image and BASpi firmware already installed.
 - Method B - Install BASpi firmware files to an already running Raspbian OS.
+
+------
 
 ### Steps I did with Installation Method A
 
