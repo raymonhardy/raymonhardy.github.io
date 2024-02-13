@@ -6,7 +6,7 @@
     <description>Recent content on Ray&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Feb 2024 07:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Mon, 12 Feb 2024 07:07:07 +0100</lastBuildDate>
     <atom:link href="https://raymonhardy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
@@ -16,14 +16,6 @@
       <description>Security engineer just trying to keep up with the latest technology and threats.</description>
     </item>
     <item>
-      <title>Vulnerability Lists, Databases and Scoring</title>
-      <link>https://raymonhardy.github.io/posts/vulnerability_scoring/</link>
-      <pubDate>Tue, 13 Feb 2024 07:07:07 +0100</pubDate>
-      <guid>https://raymonhardy.github.io/posts/vulnerability_scoring/</guid>
-      <description>In this post I wanted to go over some of the findings I have found when doing research into how vulnerability scoring works with vulnerability databases.
-CVE List The Common Enumeration of Vulnerabilities (CVE) List is a database of reported vulnerabilities maintained by the Mitre Corporation. Vulnerabilities found can be submitted by organizations and even individuals. Each vulnerability is given a CVE-ID number to identify by. This list of CVE-ID&amp;rsquo;s is used by many other databases for application use and scoring.</description>
-    </item>
-    <item>
       <title>AppSec Open Source I Have Come Across</title>
       <link>https://raymonhardy.github.io/posts/appsec_open_source/</link>
       <pubDate>Mon, 12 Feb 2024 07:07:07 +0100</pubDate>
@@ -31,22 +23,6 @@ CVE List The Common Enumeration of Vulnerabilities (CVE) List is a database of r
       <description>Tools Brakeman Scanner:
 Able to detect vulnerabilities on the latest Ruby on Rails version. https://brakemanscanner.org OWASP Dependency-Check:
 Able to detect vulnerabilities in project&amp;rsquo;s depedencies. https://dependencytrack.org </description>
-    </item>
-    <item>
-      <title>The BASpi - A Configurable BACnet Raspberry Pi Hat</title>
-      <link>https://raymonhardy.github.io/posts/baspi_installation/</link>
-      <pubDate>Thu, 14 Jul 2022 07:07:07 +0100</pubDate>
-      <guid>https://raymonhardy.github.io/posts/baspi_installation/</guid>
-      <description>The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor. For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year.</description>
-    </item>
-    <item>
-      <title>Blog Created with Hugo</title>
-      <link>https://raymonhardy.github.io/posts/blog_site_created/</link>
-      <pubDate>Sat, 14 May 2022 07:07:07 +0100</pubDate>
-      <guid>https://raymonhardy.github.io/posts/blog_site_created/</guid>
-      <description>Like everyone else and their dog, I set up this blog website to post about personal projects in technology and other fun topics.
-Set up this blog website with Hugo Project and PaperMod Theme:
-Docs: Hugo Docs: https://gohugo.io/documentation/ PaperMod Docs: https://github.com/adityatelange/hugo-PaperMod/wiki/Features Deployment: Hugo Local Install: Mac Terminal Installation and Start: Brew Install Hugo git init git submodule add https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode themes/hugo-PaperMod hugo server -D GitHub Pages Deployment: Hope there are good things to come!</description>
     </item>
   </channel>
 </rss>
