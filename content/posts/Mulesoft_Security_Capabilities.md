@@ -8,9 +8,7 @@ After working with Mulesoft for a while, I wanted to write this blog post becaus
 
 ### Mulesoft Documentation
 
-The Mulesoft Docs will be your best friend. The Mulesoft documentation is very handy when applying security capatibilities to your environment. The location of these docs are located here:
-
-<https://docs.mulesoft.com/general/>
+The Mulesoft Docs will be your best friend. The Mulesoft documentation is very handy when applying security capatibilities to your environment. The location of these docs are located here: [Mulesoft Docs General](https://docs.mulesoft.com/general/).
 
 ****
 
@@ -38,9 +36,7 @@ If you are coming into a cyber security role after selection of the hosting opti
 
 ### API Types
 
-Mulesoft recommends creating and deploying API types in mind. Here are Mulesoft recommendations:
-
-<https://www.mulesoft.com/resources/api/types-of-apis>
+Mulesoft recommends creating and deploying API types in mind. Here are Mulesoft recommendations: [Type of APIs](https://www.mulesoft.com/resources/api/types-of-apis).
 
 I broke them down into how I see them.
 
@@ -64,9 +60,7 @@ Knowing what API type is essential when assessing security risk and what policie
 
 ### Anypoint Security
 
-If you pay for Mulesoft top tier you will get some out of the box security features. Consult with your Mulesoft administrator or rep to see if what tier you might have. Many them are included here:
-
-<https://docs.mulesoft.com/anypoint-security/>
+If you pay for Mulesoft top tier you will get some out of the box security features. Consult with your Mulesoft administrator or rep to see if what tier you might have. Many them are included here: [Anypoint Security](https://docs.mulesoft.com/anypoint-security/).
 
 #### Edge Policies
 
@@ -107,9 +101,7 @@ Policy Configuration Types:
 - Included Policies - Policies that are included out of the box with certain thresholds.
 - Custom Policies -  Policies that can be adjusted to certain thresholds by the user.
 
-To apply these policies you will need select the certain API or APIs (automated policies) that you want to apply these policies on within the API Manager. Review with your Mulesoft admin and Software developers these policies.
-
-<https://docs.mulesoft.com/gateway/1.4/policies-included-directory>
+To apply these policies you will need select the certain API or APIs (automated policies) that you want to apply these policies on within the API Manager. Review with your Mulesoft admin and Software developers these policies [Mulesoft Policies](https://docs.mulesoft.com/gateway/1.4/policies-included-directory).
 
 ### API Governance - Rulesets
 
@@ -127,15 +119,13 @@ Some helpful out of the box rulesets for security include:
 
 ![Alt text](/images/MulesoftRulesets.jpg "a title")
 
-<https://www.mulesoft.com/exchange/?search=&type=ruleset>
+[Mulesoft Exchange](https://www.mulesoft.com/exchange/?search=&type=ruleset)
 
 ### MQ Queue Encryption Configuration
 
 With Mulesoft you have the capability to enrypt all messages in the queue. This feature is very useful for sensitiv information sent to that queue and will be stored temporarily. You will have to work work with other departments to see if that data will be sensitive or not. Mulesoft also has the option to encrypt those messages in rest as well.
 
-Here is a useful link to that confiruation for the encrypting queues:
-
-<https://docs.mulesoft.com/mq/mq-understanding#encrypt_queue>
+Here is a useful link to that confiruation for the encrypting queues: [Mulesoft Queue Encryption](https://docs.mulesoft.com/mq/mq-understanding#encrypt_queue).
 
 ****
 

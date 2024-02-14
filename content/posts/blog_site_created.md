@@ -12,14 +12,9 @@ Set up this blog website with Hugo Project and PaperMod Theme on mac computer:
 
 ## Doc URLs:
 
-### Hugo Docs:
-- https://gohugo.io/documentation/
-
-### PaperMod Docs:
-- https://github.com/adityatelange/hugo-PaperMod/wiki/Features
-
-### Hugo Deployment types:
-- https://gohugo.io/getting-started/usage/
+- [Hugo Docs](https://gohugo.io/documentation/)
+- [PaperMod Docs](https://github.com/adityatelange/hugo-PaperMod/wiki/Features)
+- [Hugo Deployment types](https://gohugo.io/getting-started/usage/)
 
 -----------
 
