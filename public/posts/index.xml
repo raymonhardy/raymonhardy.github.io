@@ -16,7 +16,7 @@
       <description>After working with Mulesoft for a while, I wanted to write this blog post because I didn&amp;rsquo;t see very many resourse that were comprehensive on Mulesoft and it&amp;rsquo;s security capabilities. Many of these findings were by google searching, reviewing Mulesoft documentation and talking with Mulesoft reps for security capabilities. This post is not intented to include all of Mulesoft security capabilities but is just good starter for those looking to use Mulesoft security.</description>
     </item>
     <item>
-      <title>The BASpi - A Configurable BACnet Raspberry Pi Hat</title>
+      <title>Baspi Installation</title>
       <link>https://raymonhardy.github.io/posts/baspi_installation/</link>
       <pubDate>Thu, 14 Jul 2022 07:07:07 +0100</pubDate>
       <guid>https://raymonhardy.github.io/posts/baspi_installation/</guid>
