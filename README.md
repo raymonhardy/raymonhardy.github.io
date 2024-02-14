@@ -1,16 +1,18 @@
 README
 
-To start project: 
+To start project locally: 
     hugo server -D
 
-To configure Hugo Project:
-    https://gohugo.io/documentation/
-
-To configure Theme: 
-    https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
-
-YAML to TOML:
-    https://transform.tools/yaml-to-toml
-
 Docs:
-    https://gohugo.io/documentation/
+
+    To configure Hugo Project:
+        https://gohugo.io/documentation/
+
+    To configure Theme: 
+        https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+
+    YAML to TOML:
+        https://transform.tools/yaml-to-toml
+
+    Docs:
+        https://gohugo.io/documentation/
