@@ -1,5 +1,5 @@
 +++
-title = 'AppSec Open Source I Have Come Across'
+title = 'AppSec Open Source'
 date = 2024-02-12T07:07:07+01:00
 draft = true
 +++
