@@ -1,18 +1,27 @@
 README
 
-To start project locally: 
-    hugo server -D
+Personal blog website. Feel free to use for your personal blog. 
 
-Docs:
+Docs/Tools:
 
-    To configure Hugo Project:
+    Hugo Docs:
         https://gohugo.io/documentation/
 
-    To configure Theme: 
+    PaperMod Theme Docs: 
         https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
 
-    YAML to TOML:
+    YAML to TOML Tool:
         https://transform.tools/yaml-to-toml
 
-    Docs:
-        https://gohugo.io/documentation/
+
+Deployment:
+
+    To serve project locally: 
+        hugo server -D
+
+    To publish project to public folder
+        hugo
+
+More Instructions for hosting on GitHub:
+
+    https://blog.raymonhardy.com/posts/blog_site_created/
