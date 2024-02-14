@@ -1,6 +1,6 @@
 README
 
-Personal blog website. Feel free to use for your use.
+Personal blog website. Feel free to use.
 
 ----
 
