@@ -1,14 +1,14 @@
 README
 
-Personal blog website. Feel free to use for your personal blog.
+Personal blog website. Feel free to use for your use.
 
 ----
 
 #### Items Used:
 
-    - Static Site Generator: Hugo
-    - Theme: PaperMod
-    - Hosting: GitHub Pages
+- Static Site Generator: Hugo
+- Theme: PaperMod
+- Hosting: GitHub Pages
 
 -----
 
