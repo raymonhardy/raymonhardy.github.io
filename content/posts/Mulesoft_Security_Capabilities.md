@@ -1,6 +1,7 @@
 +++
-title = "Mulesoft Security Capabilities"
+title = 'Mulesoft Security Capabilities'
 date = 2023-06-28T07:07:07+01:00
+tags = ['Cloud Security']
 draft = false
 +++
 

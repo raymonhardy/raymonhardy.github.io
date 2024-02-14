@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Application Security on Ray&#39;s Blog</title>
+    <link>https://raymonhardy.github.io/tags/application-security/</link>
+    <description>Recent content in Application Security on Ray&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Feb 2024 07:07:07 +0100</lastBuildDate>
+    <atom:link href="https://raymonhardy.github.io/tags/application-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vulnerability Databases</title>
+      <link>https://raymonhardy.github.io/posts/vulnerability_databases/</link>
+      <pubDate>Tue, 13 Feb 2024 07:07:07 +0100</pubDate>
+      <guid>https://raymonhardy.github.io/posts/vulnerability_databases/</guid>
+      <description>In this post I wanted to go over some of the findings I have found when doing research into how vulnerability scoring works with vulnerability databases.
+CVE List The Common Enumeration of Vulnerabilities (CVE) List is a database of reported vulnerabilities maintained by the Mitre Corporation. Vulnerabilities found can be submitted by organizations and even individuals. Each vulnerability is given a CVE-ID number to identify by. This list of CVE-ID&amp;rsquo;s is used by many other databases for application use and scoring.</description>
+    </item>
+  </channel>
+</rss>

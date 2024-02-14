@@ -2,6 +2,7 @@
 +++
 title = 'Baspi Installation'
 date = 2022-07-14T07:07:07+01:00
+tags = ['IoT Security']
 draft = false
 +++
 
