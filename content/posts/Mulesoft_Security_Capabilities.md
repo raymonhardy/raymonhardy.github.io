@@ -34,7 +34,7 @@ If you are selecting a hosting platfrom type based on the industry and security 
 - Government Cloud
   - MuleSoft Government Cloud
 
-If you are coming into a cyber security role after selection of the hosting option is already done it is very crucial the know your Mulesoft environment your organization has. Know specifically Anypoint Hosting type as well as where your control and runtime plane are.
+If you are coming into a cyber security role after selection of the hosting option is already done it is very crucial to know your Mulesoft environment your organization has. Know specifically Anypoint Hosting type as well as where your control and runtime plane are.
 
 ### API Types
 
