@@ -6,7 +6,7 @@
     <description>Recent content on Ray&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Jul 2022 07:07:07 +0100</lastBuildDate>
+    <lastBuildDate>Wed, 28 Jun 2023 07:07:07 +0100</lastBuildDate>
     <atom:link href="https://raymonhardy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
@@ -14,6 +14,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymonhardy.github.io/about/</guid>
       <description>Security engineer just trying to keep up with the latest technology and threats.</description>
+    </item>
+    <item>
+      <title>Mulesoft Security Capabilities</title>
+      <link>https://raymonhardy.github.io/posts/mulesoft_security_capabilities/</link>
+      <pubDate>Wed, 28 Jun 2023 07:07:07 +0100</pubDate>
+      <guid>https://raymonhardy.github.io/posts/mulesoft_security_capabilities/</guid>
+      <description>After working with Mulesoft for a while, I wanted to write this blog post because I didn&amp;rsquo;t see very many resourse that were comprehensive on Mulesoft and it&amp;rsquo;s security capabilities. Many of these findings were by google searching, reviewing Mulesoft documentation and talking with Mulesoft reps for security capabilities. This post is not intented to include all of Mulesoft security capabilities but is just good starter for those looking to use Mulesoft security.</description>
     </item>
     <item>
       <title>The BASpi - A Configurable BACnet Raspberry Pi Hat</title>
