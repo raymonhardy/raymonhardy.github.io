@@ -2,11 +2,15 @@ README
 
 Personal blog website. Feel free to use for your personal blog. 
 
+#### Items Used:
+
 - Static Site Generator: Hugo
 - Theme: PaperMod
 - Hosting: GitHub Pages
 
-Docs/Tools:
+-----
+
+#### Docs/Tools:
 
     Hugo Docs:
         https://gohugo.io/documentation/
@@ -20,15 +24,8 @@ Docs/Tools:
     YAML to TOML Tool:
         https://transform.tools/yaml-to-toml
 
+-----
 
-Deployment:
-
-    To serve project locally: 
-        hugo server -D
-
-    To publish project to public folder
-        hugo
-
-More Instructions for hosting on GitHub:
+#### Post on how to set site up:
 
     https://blog.raymonhardy.com/posts/blog_site_created/
