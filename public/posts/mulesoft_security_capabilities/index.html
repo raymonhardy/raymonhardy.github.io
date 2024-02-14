@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Mulesoft Security Capabilities | Ray&#39;s Blog</title>
+<meta name="keywords" content="Cloud Security">
+<meta name="description" content="After working with Mulesoft for a while, I wanted to write this blog post because I didn&rsquo;t see very many resourse that were comprehensive on Mulesoft and it&rsquo;s security capabilities. Many of these findings were by google searching, reviewing Mulesoft documentation and talking with Mulesoft reps for security capabilities. This post is not intented to include all of Mulesoft security capabilities but is just good starter for those looking to use Mulesoft security.">
+<meta name="author" content="">
+<link rel="canonical" href="https://raymonhardy.github.io/posts/mulesoft_security_capabilities/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://raymonhardy.github.io/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://raymonhardy.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://raymonhardy.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://raymonhardy.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://raymonhardy.github.io/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="Mulesoft Security Capabilities" />
+<meta property="og:description" content="After working with Mulesoft for a while, I wanted to write this blog post because I didn&rsquo;t see very many resourse that were comprehensive on Mulesoft and it&rsquo;s security capabilities. Many of these findings were by google searching, reviewing Mulesoft documentation and talking with Mulesoft reps for security capabilities. This post is not intented to include all of Mulesoft security capabilities but is just good starter for those looking to use Mulesoft security." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://raymonhardy.github.io/posts/mulesoft_security_capabilities/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-06-28T07:07:07+01:00" />
+<meta property="article:modified_time" content="2023-06-28T07:07:07+01:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Mulesoft Security Capabilities"/>
+<meta name="twitter:description" content="After working with Mulesoft for a while, I wanted to write this blog post because I didn&rsquo;t see very many resourse that were comprehensive on Mulesoft and it&rsquo;s security capabilities. Many of these findings were by google searching, reviewing Mulesoft documentation and talking with Mulesoft reps for security capabilities. This post is not intented to include all of Mulesoft security capabilities but is just good starter for those looking to use Mulesoft security."/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "https://raymonhardy.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "Mulesoft Security Capabilities",
+      "item": "https://raymonhardy.github.io/posts/mulesoft_security_capabilities/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Mulesoft Security Capabilities",
+  "name": "Mulesoft Security Capabilities",
+  "description": "After working with Mulesoft for a while, I wanted to write this blog post because I didn\u0026rsquo;t see very many resourse that were comprehensive on Mulesoft and it\u0026rsquo;s security capabilities. Many of these findings were by google searching, reviewing Mulesoft documentation and talking with Mulesoft reps for security capabilities. This post is not intented to include all of Mulesoft security capabilities but is just good starter for those looking to use Mulesoft security.",
+  "keywords": [
+    "Cloud Security"
+  ],
+  "articleBody": "After working with Mulesoft for a while, I wanted to write this blog post because I didn’t see very many resourse that were comprehensive on Mulesoft and it’s security capabilities. Many of these findings were by google searching, reviewing Mulesoft documentation and talking with Mulesoft reps for security capabilities. This post is not intented to include all of Mulesoft security capabilities but is just good starter for those looking to use Mulesoft security.\nMulesoft Documentation The Mulesoft Docs will be your best friend. The Mulesoft documentation is very handy when applying security capatibilities to your environment. The location of these docs are located here: Mulesoft Docs General.\nMulesoft Basic Background I am going to just go over some basic knowledge of Mulesoft and certain vocabulary that is good to know. This is only basic information but to just give you some background.\nMulesoft Cloud Implemenations If you are selecting a hosting platfrom type based on the industry and security requirements needed. It is important to select the right implementation. Mulesoft cloud options are:\nFull Cloud: CloudHub 1.0/2.0: Location: US Cloud EU Cloud Hybrid Cloud: Runtime Fabric - Kubernetes Cluster Private Cloud Anypoint Platform Private Cloud Edition Government Cloud MuleSoft Government Cloud If you are coming into a cyber security role after selection of the hosting option is already done it is very crucial to know your Mulesoft environment your organization has. Know specifically Anypoint Hosting type as well as where your control and runtime plane are.\nAPI Types Mulesoft recommends creating and deploying API types in mind. Here are Mulesoft recommendations: Type of APIs.\nI broke them down into how I see them.\nExperience - Public APIs that the end user will be interacting with. Process - Middle man APIs configure and push data to the internal APIs (System APIs) System - Internal APIs that interact with the backend servers and do the heavy lifting. Knowing what API type is essential when assessing security risk and what policies to put into place for them.\nOther Key Areas Design Center - Place to create, design and configure APIs using RAML files. Exchange - Location to see all API assets and use for documenation of APIs. Access Managment - User provisioning and logging. API Manager - Location to do API administration and policies. Runtime Manager - Location to view all checked in APIs currently running live. Mulesoft Security Anypoint Security If you pay for Mulesoft top tier you will get some out of the box security features. Consult with your Mulesoft administrator or rep to see if what tier you might have. Many them are included here: Anypoint Security.\nEdge Policies Here you can apply security settings on the edge similar to CDN capabilities. Things such as provides denial-of-service (DoS), IP allowlists, HTTP limits, and Web Application Firewall (WAF) policies to protect your APIs. If you do not use a CDN for your web apps or APIs\nTokenization If you are transmitting sensitive data for example credit card data and currently don’t use a seperate tool for tokenization Mulesoft has capabilities to tokenize the data to scope out compliance requirements. A good example of how to implement tokenization is represented here:\nSecrets Manager Lastly if you need a secrets manager to control access to private keys, passwords, certificates, and other secrets.\nSecrets manager can store and manage the following secret types:\nTLS Context Keystore Truststore Certificates Certificate Pin Set CRL Distributor API Manager - Policies There are a variety of methods to apply to individual APIs or all APIs.\nPolicy Implementation Types:\nAutmoated policies - Method to apply globally baseline policies to all Mulesoft APIs. Manual Policies - Method to apply unique policies to individual APIs or specific group of APIs. Depending on the security requirements of the organization and if they have certain policies to apply Mulesoft has options to configure them.\nPolicy Configuration Types:\nIncluded Policies - Policies that are included out of the box with certain thresholds. Custom Policies - Policies that can be adjusted to certain thresholds by the user. To apply these policies you will need select the certain API or APIs (automated policies) that you want to apply these policies on within the API Manager. Review with your Mulesoft admin and Software developers these policies Mulesoft Policies.\nAPI Governance - Rulesets Mulesoft gives the ability to apply certain API governance rulesets to give security results or compliance guidances on Mulesoft APIs within the Mulesoft Design Center. This helps to find certain security requirements or vulnerabilities and even quality issues found within the API RAML file or API configuration. This feature is still relatively new from the time of this blog post.\nTo apply these Rulesets and get the results in Design Center you will apply certain tags to the APIs you want to apply to. You will need access to the API Governance center and be able to create a new Profile. These rulesets then use tags to apply the rulesets on.\nMulesoft also lets you create custom rulesets if there is a specific requirement your organziation is looking for.\nSome helpful out of the box rulesets for security include:\nAuthentication Security Best Practices HTTPS Enforcement OWASP API Security Top 10 2019 Checklist Mulesoft Exchange\nMQ Queue Encryption Configuration With Mulesoft you have the capability to enrypt all messages in the queue. This feature is very useful for sensitiv information sent to that queue and will be stored temporarily. You will have to work work with other departments to see if that data will be sensitive or not. Mulesoft also has the option to encrypt those messages in rest as well.\nHere is a useful link to that confiruation for the encrypting queues: Mulesoft Queue Encryption.\nConclusion Like I mentioned above this is just a basic starter into Mulesoft security configurations. There a plenty more and detailed areas to configure your APIs. I hope this helps someone looking to make those security configurations and can give a good jump start into Mulesoft capabilities as a API gateway.\n",
+  "wordCount" : "1001",
+  "inLanguage": "en",
+  "datePublished": "2023-06-28T07:07:07+01:00",
+  "dateModified": "2023-06-28T07:07:07+01:00",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://raymonhardy.github.io/posts/mulesoft_security_capabilities/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ray's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://raymonhardy.github.io/favicon.ico"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://raymonhardy.github.io" accesskey="h" title="Ray&#39;s Blog (Alt + H)">Ray&#39;s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://raymonhardy.github.io/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Mulesoft Security Capabilities
+    </h1>
+    <div class="post-meta"><span title='2023-06-28 07:07:07 +0100 +0100'>June 28, 2023</span>
+
+</div>
+  </header> 
+  <div class="post-content"><p>After working with Mulesoft for a while, I wanted to write this blog post because I didn&rsquo;t see very many resourse that were comprehensive on Mulesoft and it&rsquo;s security capabilities. Many of these findings were by google searching, reviewing Mulesoft documentation and talking with Mulesoft reps for security capabilities. This post is not intented to include all of Mulesoft security capabilities but is just good starter for those looking to use Mulesoft security.</p>
+<h3 id="mulesoft-documentation">Mulesoft Documentation<a hidden class="anchor" aria-hidden="true" href="#mulesoft-documentation">#</a></h3>
+<p>The Mulesoft Docs will be your best friend. The Mulesoft documentation is very handy when applying security capatibilities to your environment. The location of these docs are located here: <a href="https://docs.mulesoft.com/general/">Mulesoft Docs General</a>.</p>
+<hr>
+<h2 id="mulesoft-basic-background">Mulesoft Basic Background<a hidden class="anchor" aria-hidden="true" href="#mulesoft-basic-background">#</a></h2>
+<p>I am going to just go over some basic knowledge of Mulesoft and certain vocabulary that is good to know. This is only basic information but to just give you some background.</p>
+<h3 id="mulesoft-cloud-implemenations">Mulesoft Cloud Implemenations<a hidden class="anchor" aria-hidden="true" href="#mulesoft-cloud-implemenations">#</a></h3>
+<p>If you are selecting a hosting platfrom type based on the industry and security requirements needed. It is important to select the right implementation. Mulesoft cloud options are:</p>
+<ul>
+<li>Full Cloud:
+<ul>
+<li>CloudHub 1.0/2.0:
+<ul>
+<li>Location:
+<ul>
+<li>US Cloud</li>
+<li>EU Cloud</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Hybrid Cloud:
+<ul>
+<li>Runtime Fabric - Kubernetes Cluster</li>
+</ul>
+</li>
+<li>Private Cloud
+<ul>
+<li>Anypoint Platform Private Cloud Edition</li>
+</ul>
+</li>
+<li>Government Cloud
+<ul>
+<li>MuleSoft Government Cloud</li>
+</ul>
+</li>
+</ul>
+<p>If you are coming into a cyber security role after selection of the hosting option is already done it is very crucial to know your Mulesoft environment your organization has. Know specifically Anypoint Hosting type as well as where your control and runtime plane are.</p>
+<h3 id="api-types">API Types<a hidden class="anchor" aria-hidden="true" href="#api-types">#</a></h3>
+<p>Mulesoft recommends creating and deploying API types in mind. Here are Mulesoft recommendations: <a href="https://www.mulesoft.com/resources/api/types-of-apis">Type of APIs</a>.</p>
+<p>I broke them down into how I see them.</p>
+<ul>
+<li>Experience - Public APIs that the end user will be interacting with.</li>
+<li>Process - Middle man APIs configure and push data to the internal APIs (System APIs)</li>
+<li>System - Internal APIs that interact with the backend servers and do the heavy lifting.</li>
+</ul>
+<p>Knowing what API type is essential when assessing security risk and what policies to put into place for them.</p>
+<h3 id="other-key-areas">Other Key Areas<a hidden class="anchor" aria-hidden="true" href="#other-key-areas">#</a></h3>
+<ul>
+<li>Design Center - Place to create, design and configure APIs using RAML files.</li>
+<li>Exchange - Location to see all API assets and use for documenation of APIs.</li>
+<li>Access Managment - User provisioning and logging.</li>
+<li>API Manager - Location to do API administration and policies.</li>
+<li>Runtime Manager - Location to view all checked in APIs currently running live.</li>
+</ul>
+<hr>
+<h2 id="mulesoft-security">Mulesoft Security<a hidden class="anchor" aria-hidden="true" href="#mulesoft-security">#</a></h2>
+<h3 id="anypoint-security">Anypoint Security<a hidden class="anchor" aria-hidden="true" href="#anypoint-security">#</a></h3>
+<p>If you pay for Mulesoft top tier you will get some out of the box security features. Consult with your Mulesoft administrator or rep to see if what tier you might have. Many them are included here: <a href="https://docs.mulesoft.com/anypoint-security/">Anypoint Security</a>.</p>
+<h4 id="edge-policies">Edge Policies<a hidden class="anchor" aria-hidden="true" href="#edge-policies">#</a></h4>
+<p>Here you can apply security settings on the edge similar to CDN capabilities. Things such as provides denial-of-service (DoS), IP allowlists, HTTP limits, and Web Application Firewall (WAF) policies to protect your APIs. If you do not use a CDN for your web apps or APIs</p>
+<h4 id="tokenization">Tokenization<a hidden class="anchor" aria-hidden="true" href="#tokenization">#</a></h4>
+<p>If you are transmitting sensitive data for example credit card data and currently don&rsquo;t use a seperate tool for tokenization Mulesoft has capabilities to tokenize the data to scope out compliance requirements. A good example of how to implement tokenization is represented here:</p>
+<p><img loading="lazy" src="/images/IMG_0506.jpg" alt="Mulesoft Implementation"  />
+</p>
+<h4 id="secrets-manager">Secrets Manager<a hidden class="anchor" aria-hidden="true" href="#secrets-manager">#</a></h4>
+<p>Lastly if you need a secrets manager to control access to private keys, passwords, certificates, and other secrets.</p>
+<p>Secrets manager can store and manage the following secret types:</p>
+<ul>
+<li>TLS Context</li>
+<li>Keystore</li>
+<li>Truststore</li>
+<li>Certificates</li>
+<li>Certificate Pin Set</li>
+<li>CRL Distributor</li>
+</ul>
+<h3 id="api-manager---policies">API Manager - Policies<a hidden class="anchor" aria-hidden="true" href="#api-manager---policies">#</a></h3>
+<p>There are a variety of methods to apply to individual APIs or all APIs.</p>
+<p>Policy Implementation Types:</p>
+<ul>
+<li>Autmoated policies - Method to apply globally baseline policies to all Mulesoft APIs.</li>
+<li>Manual Policies - Method to apply unique policies to individual APIs or specific group of APIs.</li>
+</ul>
+<p>Depending on the security requirements of the organization and if they have certain policies to apply Mulesoft has options to configure them.</p>
+<p>Policy Configuration Types:</p>
+<ul>
+<li>Included Policies - Policies that are included out of the box with certain thresholds.</li>
+<li>Custom Policies -  Policies that can be adjusted to certain thresholds by the user.</li>
+</ul>
+<p>To apply these policies you will need select the certain API or APIs (automated policies) that you want to apply these policies on within the API Manager. Review with your Mulesoft admin and Software developers these policies <a href="https://docs.mulesoft.com/gateway/1.4/policies-included-directory">Mulesoft Policies</a>.</p>
+<h3 id="api-governance---rulesets">API Governance - Rulesets<a hidden class="anchor" aria-hidden="true" href="#api-governance---rulesets">#</a></h3>
+<p>Mulesoft gives the ability to apply certain API governance rulesets to give security results or compliance guidances on Mulesoft APIs within the Mulesoft Design Center. This helps to find certain security requirements or vulnerabilities and even quality issues found within the API RAML file or API configuration. This feature is still relatively new from the time of this blog post.</p>
+<p>To apply these Rulesets and get the results in Design Center you will apply certain tags to the APIs you want to apply to. You will need access to the API Governance center and be able to create a new Profile. These rulesets then use tags to apply the rulesets on.</p>
+<p>Mulesoft also lets you create custom rulesets if there is a specific requirement your organziation is looking for.</p>
+<p>Some helpful out of the box rulesets for security include:</p>
+<ul>
+<li>Authentication Security Best Practices</li>
+<li>HTTPS Enforcement</li>
+<li>OWASP API Security Top 10 2019 Checklist</li>
+</ul>
+<p><img loading="lazy" src="/images/MulesoftRulesets.jpg" alt="Alt text"  title="a title"  />
+</p>
+<p><a href="https://www.mulesoft.com/exchange/?search=&amp;type=ruleset">Mulesoft Exchange</a></p>
+<h3 id="mq-queue-encryption-configuration">MQ Queue Encryption Configuration<a hidden class="anchor" aria-hidden="true" href="#mq-queue-encryption-configuration">#</a></h3>
+<p>With Mulesoft you have the capability to enrypt all messages in the queue. This feature is very useful for sensitiv information sent to that queue and will be stored temporarily. You will have to work work with other departments to see if that data will be sensitive or not. Mulesoft also has the option to encrypt those messages in rest as well.</p>
+<p>Here is a useful link to that confiruation for the encrypting queues: <a href="https://docs.mulesoft.com/mq/mq-understanding#encrypt_queue">Mulesoft Queue Encryption</a>.</p>
+<hr>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
+<p>Like I mentioned above this is just a basic starter into Mulesoft security configurations. There a plenty more and detailed areas to configure your APIs. I hope this helps someone looking to make those security configurations and can give a good jump start into Mulesoft capabilities as a API gateway.</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://raymonhardy.github.io/tags/cloud-security/">Cloud Security</a></li>
+    </ul>
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+    <span>&copy; 2024 <a href="https://raymonhardy.github.io">Ray&#39;s Blog</a></span>
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
