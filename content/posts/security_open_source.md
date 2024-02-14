@@ -17,7 +17,7 @@ List of cool open source tools and projects I have come across.
     - Able to detect vulnerabilities in project's depedencies.
     - https://dependencytrack.org
 
-- InfoSec-jobs.com
-    - security specific job website created with open source tools.
-    - https://infosec-jobs.com
+- InfoSec-jobss Salaries
+    - Security specific job website created with open source tools and anonymous job salaries.
+    - https://infosec-jobs.com/salaries/
 
