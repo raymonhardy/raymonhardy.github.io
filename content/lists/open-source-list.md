@@ -1,6 +1,9 @@
 +++
-title = 'Open Source Tools'
+title = 'Favorite Open Source Projects'
 +++
+
+Here is a list of some open source projects I thought were fun and interesting. 
+I will continually update this list of projects I find. 
 
 ### Application Security:
 - [Brakeman Scanner](https://brakemanscanner.org):

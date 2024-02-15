@@ -17,15 +17,6 @@
 CVE List The Common Enumeration of Vulnerabilities (CVE) List is a database of reported vulnerabilities maintained by the Mitre Corporation. Vulnerabilities found can be submitted by organizations and even individuals. Each vulnerability is given a CVE-ID number to identify by. This list of CVE-ID&amp;rsquo;s is used by many other databases for application use and scoring.</description>
     </item>
     <item>
-      <title>Security Open Source</title>
-      <link>https://raymonhardy.github.io/posts/security_open_source/</link>
-      <pubDate>Mon, 12 Feb 2024 07:07:07 +0100</pubDate>
-      <guid>https://raymonhardy.github.io/posts/security_open_source/</guid>
-      <description>List of cool open source tools and projects I have come across.
-Open source tools and projects Here is a list of cool open source tools and projects I like to add to remember. I will continually update this list.
-Open Source Tools</description>
-    </item>
-    <item>
       <title>Mulesoft Security Capabilities</title>
       <link>https://raymonhardy.github.io/posts/mulesoft_security_capabilities/</link>
       <pubDate>Wed, 28 Jun 2023 07:07:07 +0100</pubDate>

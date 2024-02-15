@@ -4,6 +4,8 @@
   <url>
     <loc>https://raymonhardy.github.io/about/</loc>
   </url><url>
+    <loc>https://raymonhardy.github.io/lists/</loc>
+  </url><url>
     <loc>https://raymonhardy.github.io/tags/application-security/</loc>
     <lastmod>2024-02-13T07:07:07+01:00</lastmod>
   </url><url>
@@ -18,12 +20,6 @@
   </url><url>
     <loc>https://raymonhardy.github.io/posts/vulnerability_databases/</loc>
     <lastmod>2024-02-13T07:07:07+01:00</lastmod>
-  </url><url>
-    <loc>https://raymonhardy.github.io/tags/security/</loc>
-    <lastmod>2024-02-12T07:07:07+01:00</lastmod>
-  </url><url>
-    <loc>https://raymonhardy.github.io/posts/security_open_source/</loc>
-    <lastmod>2024-02-12T07:07:07+01:00</lastmod>
   </url><url>
     <loc>https://raymonhardy.github.io/tags/cloud-security/</loc>
     <lastmod>2023-06-28T07:07:07+01:00</lastmod>
@@ -48,6 +44,6 @@
   </url><url>
     <loc>https://raymonhardy.github.io/categories/</loc>
   </url><url>
-    <loc>https://raymonhardy.github.io/open-source/</loc>
+    <loc>https://raymonhardy.github.io/lists/open-source-list/</loc>
   </url>
 </urlset>
