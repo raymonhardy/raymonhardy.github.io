@@ -12,6 +12,13 @@ I will continually update this list of projects I find.
 - [OWASP Dependency-Check](https://dependencytrack.org):
     - Able to detect vulnerabilities in project's depedencies.
 
+- [Secure Code Game](https://github.com/skills/secure-code-game)
+    - An application security coding game tuned for developers to correct vulnerabilities found. 
+
 ### Cybersecurity Jobs:
 - [InfoSec-jobs Salaries](https://infosec-jobs.com/salaries/)
     - Security specific job website created with open source tools and anonymous job salaries.
+
+### IoT:
+- [Homebridge](https://github.com/homebridge/homebridge)
+    - A hub for non-homekit IoT devices. 
