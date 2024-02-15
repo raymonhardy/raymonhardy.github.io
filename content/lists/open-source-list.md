@@ -13,7 +13,10 @@ I will continually update this list of projects I find.
     - Able to detect vulnerabilities in project's depedencies.
 
 - [Secure Code Game](https://github.com/skills/secure-code-game)
-    - An application security coding game tuned for developers to correct vulnerabilities found. 
+    - An application security coding game tuned for developers to correct vulnerabilities found.
+
+- [CodeQL](https://github.com/github/codeql)
+    - Open source code scanning tool provided by GitHub. Free to use on public repositories.
 
 ### Cybersecurity Jobs:
 - [InfoSec-jobs Salaries](https://infosec-jobs.com/salaries/)

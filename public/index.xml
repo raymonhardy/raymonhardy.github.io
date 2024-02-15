@@ -55,7 +55,8 @@ Doc URLs: Hugo Docs PaperMod Docs Hugo Deployment types Deployment: Hugo Local I
 Application Security: Brakeman Scanner:
 Able to detect vulnerabilities on the latest Ruby on Rails version. OWASP Dependency-Check:
 Able to detect vulnerabilities in project&amp;rsquo;s depedencies. Secure Code Game
-An application security coding game tuned for developers to correct vulnerabilities found. Cybersecurity Jobs: InfoSec-jobs Salaries Security specific job website created with open source tools and anonymous job salaries.</description>
+An application security coding game tuned for developers to correct vulnerabilities found. CodeQL
+Open source code scanning tool provided by GitHub.</description>
     </item>
   </channel>
 </rss>
