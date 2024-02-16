@@ -31,10 +31,10 @@ CVE List The Common Enumeration of Vulnerabilities (CVE) List is a database of r
       <description>After working with Mulesoft for a while, I wanted to write this blog post because I didn&amp;rsquo;t see very many resourse that were comprehensive on Mulesoft and it&amp;rsquo;s security capabilities. Many of these findings were by google searching, reviewing Mulesoft documentation and talking with Mulesoft reps for security capabilities. This post is not intented to include all of Mulesoft security capabilities but is just good starter for those looking to use Mulesoft security.</description>
     </item>
     <item>
-      <title>Baspi Installation</title>
-      <link>https://raymonhardy.github.io/posts/baspi_installation/</link>
+      <title>The BASpi</title>
+      <link>https://raymonhardy.github.io/posts/the-baspi/</link>
       <pubDate>Thu, 14 Jul 2022 07:07:07 +0100</pubDate>
-      <guid>https://raymonhardy.github.io/posts/baspi_installation/</guid>
+      <guid>https://raymonhardy.github.io/posts/the-baspi/</guid>
       <description>The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor. For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year.</description>
     </item>
     <item>
