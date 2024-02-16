@@ -6,4 +6,4 @@ weight = 50
 
 Security engineer just trying to keep up with the latest technology and threats.
 
-![Example image](/images/AboutPic.jpg)
+![Example image](/about/AboutPic.jpg)
