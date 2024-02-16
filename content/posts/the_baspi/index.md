@@ -10,7 +10,7 @@ The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurab
 
 BACnet are doing a lot of the building automation in the background that you didn't even know about. Since ICS devices are going more and more towards smart devices these devices are now going over protocols such as ethernet or even IoT protocols such as Zigbee. Here is a look at the BASpi I picked up:
 
-![Alt text](/images/BASpi.jpg "BASpi Device")
+![Alt text](/posts/the_baspi/BASpi.jpg "BASpi Device")
 
 This was my first project I took on that was an industrial or commercial IoT device and how these devices worked. This BASpi was good introduction into how BACnet protocol works and they operate. This BASpi can be purchased here at the URL:
 

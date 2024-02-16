@@ -3,6 +3,8 @@ title = 'Mulesoft Security Capabilities'
 date = 2023-06-28T07:07:07+01:00
 tags = ['Cloud Security']
 draft = false
+images = [ "api_tokenization.jpg.jpg", "image_02.png" ]
+
 +++
 
 After working with Mulesoft for a while, I wanted to write this blog post because I didn't see very many resourse that were comprehensive on Mulesoft and it's security capabilities. Many of these findings were by google searching, reviewing Mulesoft documentation and talking with Mulesoft reps for security capabilities. This post is not intented to include all of Mulesoft security capabilities but is just good starter for those looking to use Mulesoft security.
@@ -71,7 +73,8 @@ Here you can apply security settings on the edge similar to CDN capabilities. Th
 
 If you are transmitting sensitive data for example credit card data and currently don't use a seperate tool for tokenization Mulesoft has capabilities to tokenize the data to scope out compliance requirements. A good example of how to implement tokenization is represented here:
 
-![Mulesoft Implementation](/images/IMG_0506.jpg)
+![Mulesoft Implementation](/posts/mulesoft_security_capabilities/images/api_tokenization.jpg)
+
 
 #### Secrets Manager
 
@@ -118,7 +121,7 @@ Some helpful out of the box rulesets for security include:
 - HTTPS Enforcement
 - OWASP API Security Top 10 2019 Checklist
 
-![Alt text](/images/MulesoftRulesets.jpg "a title")
+![Alt text](/posts/mulesoft_security_capabilities/images/mulesoft_rulesets.jpg "a title")
 
 [Mulesoft Exchange](https://www.mulesoft.com/exchange/?search=&type=ruleset)
 
@@ -133,3 +136,5 @@ Here is a useful link to that confiruation for the encrypting queues: [Mulesoft 
 ## Conclusion
 
 Like I mentioned above this is just a basic starter into Mulesoft security configurations. There a plenty more and detailed areas to configure your APIs. I hope this helps someone looking to make those security configurations and can give a good jump start into Mulesoft capabilities as a API gateway.
+
+

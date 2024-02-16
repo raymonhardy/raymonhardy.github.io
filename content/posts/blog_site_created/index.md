@@ -72,4 +72,4 @@ If you don't have any posts that show up it is because the "draft" flag in the p
 
 Hope there are good things to come!
 
-![Alt text](/images/IMG_0507.jpg "a title")
+![Alt text](/posts/blog_site_created/good_bad.jpg "a title")
