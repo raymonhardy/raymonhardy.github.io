@@ -28,7 +28,8 @@ CVE The Common Enumeration of Vulnerabilities (CVE) List is a database of report
       <link>https://raymonhardy.github.io/posts/the_baspi/</link>
       <pubDate>Thu, 14 Jul 2022 07:07:07 +0100</pubDate>
       <guid>https://raymonhardy.github.io/posts/the_baspi/</guid>
-      <description>The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor. For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year.</description>
+      <description>The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor.
+For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year.</description>
     </item>
     <item>
       <title>Blog Created with Hugo</title>
