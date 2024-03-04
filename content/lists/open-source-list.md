@@ -25,3 +25,11 @@ I will continually update this list of projects I find.
 ### IoT:
 - [Homebridge](https://github.com/homebridge/homebridge)
     - A hub for non-homekit IoT devices. 
+
+### IT:
+- [GLPI](https://github.com/glpi-project/glpi)
+    - Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing.
+
+### Security Compliance:
+- [OSCAL](https://github.com/usnistgov/OSCAL)
+    - NIST is developing the Open Security Controls Assessment Language (OSCAL), a set of hierarchical, XML-, JSON-, and YAML-based formats that provide a standardized representations of information pertaining to the publication, implementation, and assessment of security controls. 
