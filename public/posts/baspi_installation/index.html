@@ -5,9 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Baspi Installation | Ray&#39;s Blog</title>
+<title>BASpi Installation | Ray&#39;s Blog</title>
 <meta name="keywords" content="IoT Security">
-<meta name="description" content="The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor. For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year.">
+<meta name="description" content="The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor.
+For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year.">
 <meta name="author" content="">
 <link rel="canonical" href="https://raymonhardy.github.io/posts/baspi_installation/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
@@ -18,6 +19,7 @@
 <link rel="mask-icon" href="https://raymonhardy.github.io/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="https://raymonhardy.github.io/posts/baspi_installation/">
 <noscript>
     <style>
         #theme-toggle,
@@ -54,16 +56,18 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Baspi Installation" />
-<meta property="og:description" content="The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor. For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year." />
+</noscript><meta property="og:title" content="BASpi Installation" />
+<meta property="og:description" content="The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor.
+For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://raymonhardy.github.io/posts/baspi_installation/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2022-07-14T07:07:07+01:00" />
 <meta property="article:modified_time" content="2022-07-14T07:07:07+01:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Baspi Installation"/>
-<meta name="twitter:description" content="The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor. For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year."/>
+<meta name="twitter:title" content="BASpi Installation"/>
+<meta name="twitter:description" content="The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor.
+For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year."/>
 
 
 <script type="application/ld+json">
@@ -80,7 +84,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Baspi Installation",
+      "name": "BASpi Installation",
       "item": "https://raymonhardy.github.io/posts/baspi_installation/"
     }
   ]
@@ -90,14 +94,14 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Baspi Installation",
-  "name": "Baspi Installation",
-  "description": "The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor. For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year.",
+  "headline": "BASpi Installation",
+  "name": "BASpi Installation",
+  "description": "The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor.\nFor example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year.",
   "keywords": [
     "IoT Security"
   ],
-  "articleBody": "The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor. For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year. It can be used for triggering a ventilator when smoke is detected.\nBACnet are doing a lot of the building automation in the background that you didn’t even know about. Since ICS devices are going more and more towards smart devices these devices are now going over protocols such as ethernet or even IoT protocols such as Zigbee. Here is a look at the BASpi I picked up:\nThis was my first project I took on that was an industrial or commercial IoT device and how these devices worked. This BASpi was good introduction into how BACnet protocol works and they operate. This BASpi can be purchased here at the URL:\nhttps://www.ccontrols.com/basautomation/baspi.php\nBASpi Points Types Specifications When set up the BASpi acts a server allowing for both physical and virual points to be reached and communicated with. The following points are created when the BASpi server is running:\n12 physical points: 6 Analog Input (0-10V), Binary Input, Resistance, Thermistor (10KT2, 10KT3, 20K), Pulse Input max (40Hz). 6 Six Relay Outputs (2A max current) or Four Relay and Two Analog Outputs (0-10 V). 24 virtual points: 24 Virtual Points used to read or write data to/from wire sheet by a BACnet client/supervisor station 48 Web Components - allow live monitoring and forcing of wire sheet points from the BASpi’s web page BASpi Setup Guide Comtemporary Controls list of references for hardware and software installation.\nBASpi Home BASpi Hardware Installation BASpi Software Installation BASpi Image/Firmware Files Hardware Requirements BASpi HAT Raspberry Pi 3 or 4 8GB or larger micro SD card micro SD card to USB adapter Software Requirements Two Software Installation types:\nMethod A - Flash a Micro SD with pre-built Raspbian OS image and BASpi firmware already installed. Method B - Install BASpi firmware files to an already running Raspbian OS. Steps I did with Installation Method A Power OFF the Raspberry Pi. Mount the BASpi-IO hat on GPIO pins 1-10 on your Raspberry Pi as shown in the images here. Download the BASpi image. https://www.ccontrols.com/basautomation/baspisoftware.htm (Make sure to select the right BASpi hat you have purchased. I had purchesd the BASpi-IO6U6R) Place the Micro SD into the USB adapter and then connect to external computer. Use Raspberry Pi Imager, https://www.raspberrypi.com/software/, to flash your Raspberry pi Micro SD card. Select the custom operating system option at the bottom for the Rasperry imager to point to the image downloaded earlier. Place Micro SD into the Raspberry pi. Turn ON the raspberry pi. Connect the raspberry pi to the internet via wireless or ethernet. Find it’s IP address by doing a ifconfig command in the terminal. From an external computer connect to the IP address given to the raspberry pi. There you will see the interface of the BASpi server. Type in User Name: admin, Password: admin. Now should see the BASpi server interface. After all is installed and it working properly, it is time to start playing around with the device.\n",
-  "wordCount" : "562",
+  "articleBody": "The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor.\nFor example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year. It can be used for triggering a ventilator when smoke is detected.\nBACnet are doing a lot of the building automation in the background that you didn’t even know about. Since ICS devices are going more and more towards smart devices these devices are now going over protocols such as ethernet or even IoT protocols such as Zigbee. Here is a look at the BASpi I picked up:\nThis was my first project I took on that was an industrial or commercial IoT device and how these devices worked. This BASpi was good introduction into how BACnet protocol works and they operate.\nThis BASpi can be purchased here at this URL.\nBASpi Points When set up the BASpi acts a server allowing for both physical and virual points to be reached and communicated with. The following points are created when the BASpi server is running:\n12 physical points: 6 Analog Input (0-10V), Binary Input, Resistance, Thermistor (10KT2, 10KT3, 20K), Pulse Input max (40Hz). 6 Six Relay Outputs (2A max current) or Four Relay and Two Analog Outputs (0-10 V). 24 virtual points: 24 Virtual Points used to read or write data to/from wire sheet by a BACnet client/supervisor station 48 Web Components - allow live monitoring and forcing of wire sheet points from the BASpi’s web page BASpi Setup Guide URL Docs: BASpi Home BASpi Hardware Installation BASpi Software Installation BASpi Image/Firmware Files Hardware Requirements: BASpi HAT Raspberry Pi 3 or 4 8GB or larger micro SD card micro SD card to USB adapter Installation Types: Method A - Flash a Micro SD with pre-built Raspbian OS image and BASpi firmware already installed. Method B - Install BASpi firmware files to an already running Raspbian OS. Method Type A Steps I Did: Power OFF the Raspberry Pi. Mount the BASpi-IO hat on GPIO pins 1-10 on your Raspberry Pi as shown in the images here. Download the BASpi image. https://www.ccontrols.com/basautomation/baspisoftware.htm (Make sure to select the right BASpi hat you have purchased. I had purchesd the BASpi-IO6U6R) Place the Micro SD into the USB adapter and then connect to external computer. Use Raspberry Pi Imager, https://www.raspberrypi.com/software/, to flash your Raspberry pi Micro SD card. Select the custom operating system option at the bottom for the Rasperry imager to point to the image downloaded earlier. Place Micro SD into the Raspberry pi. Turn ON the raspberry pi. Connect the raspberry pi to the internet via wireless or ethernet. Find it’s IP address by doing a ifconfig command in the terminal. From an external computer connect to the IP address given to the raspberry pi. There you will see the interface of the BASpi server. Type in User Name: admin, Password: admin. Now should see the BASpi server interface. Conclusion After all is installed and it working properly, it is time to start playing around with the device.\n",
+  "wordCount" : "547",
   "inLanguage": "en",
   "datePublished": "2022-07-14T07:07:07+01:00",
   "dateModified": "2022-07-14T07:07:07+01:00",
@@ -132,7 +136,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://raymonhardy.github.io" accesskey="h" title="Ray&#39;s Blog (Alt + H)">Ray&#39;s Blog</a>
+            <a href="https://raymonhardy.github.io/" accesskey="h" title="Ray&#39;s Blog (Alt + H)">Ray&#39;s Blog</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -154,6 +158,8 @@
                         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
                     </svg>
                 </button>
+                <ul class="lang-switch"><li>|</li>
+                </ul>
             </div>
         </div>
         <ul id="menu">
@@ -176,20 +182,21 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Baspi Installation
+      BASpi Installation
     </h1>
     <div class="post-meta"><span title='2022-07-14 07:07:07 +0100 +0100'>July 14, 2022</span>
 
 </div>
   </header> 
-  <div class="post-content"><p>The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor. For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year. It can be used for triggering a ventilator when smoke is detected.</p>
+  <div class="post-content"><p>The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor.</p>
+<p>For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year. It can be used for triggering a ventilator when smoke is detected.</p>
 <p>BACnet are doing a lot of the building automation in the background that you didn&rsquo;t even know about. Since ICS devices are going more and more towards smart devices these devices are now going over protocols such as ethernet or even IoT protocols such as Zigbee. Here is a look at the BASpi I picked up:</p>
-<p><img loading="lazy" src="/images/BASpi.jpg" alt="Alt text"  title="BASpi Device"  />
+<p><img loading="lazy" src="/posts/the_baspi/BASpi.jpg" alt="Alt text"  title="BASpi Device"  />
 </p>
-<p>This was my first project I took on that was an industrial or commercial IoT device and how these devices worked. This BASpi was good introduction into how BACnet protocol works and they operate. This BASpi can be purchased here at the URL:</p>
-<p><a href="https://www.ccontrols.com/basautomation/baspi.php">https://www.ccontrols.com/basautomation/baspi.php</a></p>
+<p>This was my first project I took on that was an industrial or commercial IoT device and how these devices worked. This BASpi was good introduction into how BACnet protocol works and they operate.</p>
+<p>This BASpi can be purchased here at this <a href="https://www.ccontrols.com/basautomation/baspi.php">URL</a>.</p>
 <hr>
-<h2 id="baspi-points-types-specifications">BASpi Points Types Specifications<a hidden class="anchor" aria-hidden="true" href="#baspi-points-types-specifications">#</a></h2>
+<h2 id="baspi-points">BASpi Points<a hidden class="anchor" aria-hidden="true" href="#baspi-points">#</a></h2>
 <p>When set up the BASpi acts a server allowing for both physical and virual points to be reached and communicated with. The following points are created when the BASpi server is running:</p>
 <ul>
 <li>12 physical points:
@@ -207,30 +214,26 @@
 </ul>
 <hr>
 <h2 id="baspi-setup-guide">BASpi Setup Guide<a hidden class="anchor" aria-hidden="true" href="#baspi-setup-guide">#</a></h2>
-<p>Comtemporary Controls list of references for hardware and software installation.</p>
+<h3 id="url-docs">URL Docs:<a hidden class="anchor" aria-hidden="true" href="#url-docs">#</a></h3>
 <ul>
 <li><a href="https://www.ccontrols.com/basautomation/baspi.php" title="Hardware Installation">BASpi Home</a></li>
 <li><a href="https://www.ccontrols.com/pdf/BASpi-hardware-install-guide.pdf" title="Hardware Installation">BASpi Hardware Installation</a></li>
 <li><a href="https://www.ccontrols.com/pdf/is/BASPI-soft-install-guide.pdf" title="Hardware Installation">BASpi Software Installation</a></li>
 <li><a href="https://www.ccontrols.com/basautomation/baspisoftware.htm" title="Hardware Installation">BASpi Image/Firmware Files</a></li>
 </ul>
-<hr>
-<h3 id="hardware-requirements">Hardware Requirements<a hidden class="anchor" aria-hidden="true" href="#hardware-requirements">#</a></h3>
+<h3 id="hardware-requirements">Hardware Requirements:<a hidden class="anchor" aria-hidden="true" href="#hardware-requirements">#</a></h3>
 <ul>
 <li>BASpi HAT</li>
 <li>Raspberry Pi 3 or 4</li>
 <li>8GB or larger micro SD card</li>
 <li>micro SD card to USB adapter</li>
 </ul>
-<hr>
-<h3 id="software-requirements">Software Requirements<a hidden class="anchor" aria-hidden="true" href="#software-requirements">#</a></h3>
-<p>Two Software Installation types:</p>
+<h3 id="installation-types">Installation Types:<a hidden class="anchor" aria-hidden="true" href="#installation-types">#</a></h3>
 <ul>
 <li>Method A - Flash a Micro SD with pre-built Raspbian OS image and BASpi firmware already installed.</li>
 <li>Method B - Install BASpi firmware files to an already running Raspbian OS.</li>
 </ul>
-<hr>
-<h3 id="steps-i-did-with-installation-method-a">Steps I did with Installation Method A<a hidden class="anchor" aria-hidden="true" href="#steps-i-did-with-installation-method-a">#</a></h3>
+<h3 id="method-type-a-steps-i-did">Method Type A Steps I Did:<a hidden class="anchor" aria-hidden="true" href="#method-type-a-steps-i-did">#</a></h3>
 <ol>
 <li>Power OFF the Raspberry Pi.</li>
 <li>Mount the BASpi-IO hat on GPIO pins 1-10 on your Raspberry Pi as shown in the images here.</li>
@@ -246,6 +249,8 @@
 <li>Type in User Name: admin, Password: admin.</li>
 <li>Now should see the BASpi server interface.</li>
 </ol>
+<hr>
+<h2 id="conclusion">Conclusion<a hidden class="anchor" aria-hidden="true" href="#conclusion">#</a></h2>
 <p>After all is installed and it working properly, it is time to start playing around with the device.</p>
 
 
@@ -260,7 +265,7 @@
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="https://raymonhardy.github.io">Ray&#39;s Blog</a></span>
+    <span>&copy; 2024 <a href="https://raymonhardy.github.io/">Ray&#39;s Blog</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &

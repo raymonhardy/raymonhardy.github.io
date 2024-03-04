@@ -1,12 +1,12 @@
 
 +++
-title = 'The BASpi'
+title = 'BASpi Installation'
 date = 2022-07-14T07:07:07+01:00
 tags = ['IoT Security']
 draft = false
 +++
 
-The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor. 
+The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor.
 
 For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year. It can be used for triggering a ventilator when smoke is detected.
 
@@ -14,7 +14,7 @@ BACnet are doing a lot of the building automation in the background that you did
 
 ![Alt text](/posts/the_baspi/BASpi.jpg "BASpi Device")
 
-This was my first project I took on that was an industrial or commercial IoT device and how these devices worked. This BASpi was good introduction into how BACnet protocol works and they operate. 
+This was my first project I took on that was an industrial or commercial IoT device and how these devices worked. This BASpi was good introduction into how BACnet protocol works and they operate.
 
 This BASpi can be purchased here at this [URL](https://www.ccontrols.com/basautomation/baspi.php).
 
