@@ -14,7 +14,7 @@
       <pubDate>Tue, 13 Feb 2024 07:07:07 +0100</pubDate>
       <guid>https://raymonhardy.github.io/posts/vulnerability_databases/</guid>
       <description>In this post I wanted to go over some of the findings I have found when doing research into how vulnerability scoring works with vulnerability databases.
-CVE List The Common Enumeration of Vulnerabilities (CVE) List is a database of reported vulnerabilities maintained by the Mitre Corporation. Vulnerabilities found can be submitted by organizations and even individuals. Each vulnerability is given a CVE-ID number to identify by. This list of CVE-ID&amp;rsquo;s is used by many other databases for application use and scoring.</description>
+CVE The Common Enumeration of Vulnerabilities (CVE) List is a database of reported vulnerabilities maintained by the Mitre Corporation. Vulnerabilities found can be submitted by organizations and even individuals. Each vulnerability is given a CVE-ID number to identify by. This list of CVE-ID&amp;rsquo;s is used by many other databases for application use and scoring.</description>
     </item>
   </channel>
 </rss>
