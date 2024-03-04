@@ -1,7 +1,7 @@
 # README
 Personal blog website. Feel free to use.
 
-## Components Used
+## Components
 - [Hugo](https://gohugo.io) - Static Site Generator
   - [Hugo Documentation](https://gohugo.io/documentation/)
 - [PaperMod](https://adityatelange.github.io/hugo-PaperMod/) - Hugo Theme
