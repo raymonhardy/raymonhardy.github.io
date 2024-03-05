@@ -49,9 +49,10 @@ In Local Machine:
    1. `hugo new content posts/<postname>.md` Filling in a postname you want
    2. Place content in post
    3. In Front Matter (markdown header) set "draft" to "false"
-   4. `git add .`
-   5. `git commit -m <message>`
-   6. `git push`
+   4. `hugo`
+   5. `git add .`
+   6. `git commit -m <message>`
+   7. `git push`
 
 **You should now see a working Hugo Site at `https://<username>.github.io`.**
 
