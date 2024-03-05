@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>IoT Security on Ray&#39;s Blog</title>
+    <link>https://raymonhardy.github.io/tags/iot-security/</link>
+    <description>Recent content in IoT Security on Ray&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 14 Jul 2022 07:07:07 +0100</lastBuildDate>
+    <atom:link href="https://raymonhardy.github.io/tags/iot-security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BASpi Installation</title>
+      <link>https://raymonhardy.github.io/posts/baspi_installation/</link>
+      <pubDate>Thu, 14 Jul 2022 07:07:07 +0100</pubDate>
+      <guid>https://raymonhardy.github.io/posts/baspi_installation/</guid>
+      <description>The BASpi is a raspberry pi HAT that can turn your raspbery pi into a configurable BACnet device. BACnet devices are used in commercial HVAC building automation. It is how large commercial buildings are able to trigger during a certain time of day or trigger from another sensor.
+For example, a BACnet devices can be used for turning down and turning up building air conditioning during certain times of day or year.</description>
+    </item>
+  </channel>
+</rss>
