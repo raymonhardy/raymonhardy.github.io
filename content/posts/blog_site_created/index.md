@@ -23,7 +23,6 @@ In Local Machine:
  4. `hugo server -D`
  5. Go to: <http://localhost:1313>
  6. Stop Server: Ctrl C
- 7. `hugo`
 
 ## GitHub Pages Deployment:
 In Github.com:

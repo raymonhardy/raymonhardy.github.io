@@ -13,7 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymonhardy.github.io/lists/open-source-list/</guid>
       <description>Here is a list of some open source projects I thought were fun and interesting. I will continually update this list of projects I find.
-Application Security: Brakeman Scanner:
+Security Application Brakeman Scanner:
 Able to detect vulnerabilities on the latest Ruby on Rails version. OWASP Dependency-Check:
 Able to detect vulnerabilities in project&amp;rsquo;s depedencies. Secure Code Game
 An application security coding game tuned for developers to correct vulnerabilities found. CodeQL

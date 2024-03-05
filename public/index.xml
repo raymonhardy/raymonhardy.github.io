@@ -45,7 +45,7 @@ For example, a BACnet devices can be used for turning down and turning up buildi
       <guid>https://raymonhardy.github.io/posts/blog_site_created/</guid>
       <description>Like everyone else and their dog, I set up this blog website to post about personal projects in technology and other fun topics.
 Components Used: Mac Hugo PaperMod GitHub Pages Local Deployment: In Local Machine:
-Brew Install Hugo git init git submodule add https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode themes/hugo-PaperMod hugo server -D Go to: http://localhost:1313 Stop Server: Ctrl C hugo GitHub Pages Deployment: In Github.com:
+Brew Install Hugo git init git submodule add https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode themes/hugo-PaperMod hugo server -D Go to: http://localhost:1313 Stop Server: Ctrl C GitHub Pages Deployment: In Github.com:
 Create new repository named &amp;lt;username&amp;gt;.github.io, filling in your username In Local Machine:</description>
     </item>
     <item>
@@ -54,7 +54,7 @@ Create new repository named &amp;lt;username&amp;gt;.github.io, filling in your 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://raymonhardy.github.io/lists/open-source-list/</guid>
       <description>Here is a list of some open source projects I thought were fun and interesting. I will continually update this list of projects I find.
-Application Security: Brakeman Scanner:
+Security Application Brakeman Scanner:
 Able to detect vulnerabilities on the latest Ruby on Rails version. OWASP Dependency-Check:
 Able to detect vulnerabilities in project&amp;rsquo;s depedencies. Secure Code Game
 An application security coding game tuned for developers to correct vulnerabilities found. CodeQL
