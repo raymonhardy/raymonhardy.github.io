@@ -36,4 +36,9 @@ I will continually update this list of projects I find.
 - [GLPI](https://github.com/glpi-project/glpi)
     - Free Asset and IT Management Software package, Data center management, ITIL Service Desk, licenses tracking and software auditing.
 
+## Development
+### Python
+- [interactive-tutorials](https://github.com/ronreiter/interactive-tutorials)
+    - Free python learning tutorials. 
+
  
