@@ -39,8 +39,9 @@ I will continually update this list of projects I find.
 ## Development
 ### Python
 - [interactive-tutorials](https://github.com/ronreiter/interactive-tutorials)
-    - Free python learning tutorials. 
+  - Free python learning tutorials. 
 
 ## Blogs
 ### Security
 - [System Overlord](https://systemoverlord.com)
+  - A blog about security engineering, research, and general hacking.
