@@ -44,4 +44,8 @@ I will continually update this list of projects I find.
 ## Blogs
 ### Security
 - [System Overlord](https://systemoverlord.com)
-  - A blog about security engineering, research, and general hacking.
+  - Security engineering, research, and general hacking.
+- [thinkty](https://thinkty.net)
+  - Systems software and security.
+- [darkcybe](https://darkcybe.gitbook.io/darkcybe/)
+  - Digital Forensics and Incident Response Analyst
