@@ -1,5 +1,5 @@
 # README
-Personal blog website. Feel free to use.
+Personal blog website.
 
 ## Components
 - [Hugo](https://gohugo.io) - Static Site Generator
