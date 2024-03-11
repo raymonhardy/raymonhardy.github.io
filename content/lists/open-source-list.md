@@ -20,6 +20,10 @@ I will continually update this list of projects I find.
 - [CodeQL](https://github.com/github/codeql)
     - Open source code scanning tool provided by GitHub. Free to use on public repositories.
 
+### Mac Security
+- [Objective-see](https://objective-see.org/index.html)
+  - free, open-source, tools to secure your Mac
+
 ### Compliance
 - [OSCAL](https://github.com/usnistgov/OSCAL)
     - NIST is developing the Open Security Controls Assessment Language (OSCAL), a set of hierarchical, XML-, JSON-, and YAML-based formats that provide a standardized representations of information pertaining to the publication, implementation, and assessment of security controls.
@@ -41,8 +45,13 @@ I will continually update this list of projects I find.
 - [interactive-tutorials](https://github.com/ronreiter/interactive-tutorials)
   - Free python learning tutorials. 
 
-## Blogs
-### Security
+## Blog
+### References
+- [Markdown Guide](https://www.markdownguide.org)
+  - Free open source guide to writing markdown sheets.
+
+
+### Websites
 - [System Overlord](https://systemoverlord.com)
   - Security engineering, research, and general hacking.
 - [thinkty](https://thinkty.net)
