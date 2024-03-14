@@ -45,16 +45,6 @@ I will continually update this list of projects I find.
 - [interactive-tutorials](https://github.com/ronreiter/interactive-tutorials)
   - Free python learning tutorials. 
 
-## Blog
-### References
+### Markdown
 - [Markdown Guide](https://www.markdownguide.org)
   - Free open source guide to writing markdown sheets.
-
-
-### Websites
-- [System Overlord](https://systemoverlord.com)
-  - Security engineering, research, and general hacking.
-- [thinkty](https://thinkty.net)
-  - Systems software and security.
-- [darkcybe](https://darkcybe.gitbook.io/darkcybe/)
-  - Digital Forensics and Incident Response Analyst
