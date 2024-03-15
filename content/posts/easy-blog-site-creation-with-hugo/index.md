@@ -1,5 +1,5 @@
 +++
-title = 'Blog Created with Hugo'
+title = 'Easy Blog Site Creation with Hugo'
 date = 2022-05-14T07:07:07+01:00
 tags = ['Blog', 'Website']
 draft = false

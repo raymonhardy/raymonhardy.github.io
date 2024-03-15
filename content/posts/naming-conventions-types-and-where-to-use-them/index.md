@@ -1,5 +1,5 @@
 +++
-title = 'Naming Conventions'
+title = 'Naming Convention Types and Where to Use Them'
 date = 2024-03-14T07:07:07+01:00
 tags = ['Programming']
 draft = false
