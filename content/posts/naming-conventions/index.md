@@ -1,7 +1,7 @@
 +++
 title = 'Naming Conventions'
 date = 2024-03-14T07:07:07+01:00
-tags = ['Application Security']
+tags = ['Programming']
 draft = false
 +++
 
