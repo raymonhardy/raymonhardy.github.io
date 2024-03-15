@@ -10,4 +10,4 @@ Personal blog website.
   - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 
 ## Instructions
-- [Blog Site Created with Hugo ](https://blog.raymonhardy.com/posts/blog_site_created/)
+- [Blog Site Created with Hugo ](https://blog.raymonhardy.com/posts/easy-blog-site-creation-with-hugo/)
