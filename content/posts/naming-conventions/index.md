@@ -2,10 +2,10 @@
 title = 'Naming Conventions'
 date = 2024-03-14T07:07:07+01:00
 tags = ['Application Security']
-draft = true
+draft = false
 +++
 
-Short write up of naming conventions and where to use them.
+Short write up of naming conventions and how they are used.
 
 ## Naming Types
 
@@ -19,7 +19,7 @@ When combing and describing words for functions, enums, structs, classes, etc...
 | Kebab Case                        | two-words       |
 | Train Case                        | TWO-WORDS       |
 
-## What to use where?
+## Where These are Used
 
 The question is which format type do I use for my project. Well depends mostly on what programming language you are using. If your programming language documentation recommends naming certain way then you follow that. If your programming language does not have particular naming convention, then just make sure to always stay consistent. Some people my prefer a certain naming convention over the other then use that method. 
 

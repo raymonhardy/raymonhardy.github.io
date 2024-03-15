@@ -73,7 +73,7 @@ Here you can apply security settings on the edge similar to CDN capabilities. Th
 
 If you are transmitting sensitive data for example credit card data and currently don't use a seperate tool for tokenization Mulesoft has capabilities to tokenize the data to scope out compliance requirements. A good example of how to implement tokenization is represented here:
 
-![Mulesoft Implementation](/posts/mulesoft_security_capabilities/images/api_tokenization.jpg)
+![Mulesoft Implementation](/posts/mulesoft-security-capabilities/images/api-tokenization.jpg)
 
 
 #### Secrets Manager
@@ -121,7 +121,7 @@ Some helpful out of the box rulesets for security include:
 - HTTPS Enforcement
 - OWASP API Security Top 10 2019 Checklist
 
-![Alt text](/posts/mulesoft_security_capabilities/images/mulesoft_rulesets.jpg "a title")
+![Alt text](/posts/mulesoft-security-capabilities/images/mulesoft-rulesets.jpg "a title")
 
 [Mulesoft Exchange](https://www.mulesoft.com/exchange/?search=&type=ruleset)
 
