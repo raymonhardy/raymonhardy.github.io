@@ -1,7 +1,7 @@
 +++
 title = 'Mulesoft Security Capabilities'
 date = 2023-06-28T07:07:07+01:00
-tags = ['Cloud Security']
+tags = ['Security','Cloud Security', 'Mulesoft','API']
 draft = false
 images = [ "api_tokenization.jpg.jpg", "image_02.png" ]
 
