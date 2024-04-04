@@ -5,7 +5,7 @@ theme = 'hugo-PaperMod'
 
 [params.homeInfoParams]
 Title = "Posts"
-
+# Content = "Cyber Security Blog"
 
 [[params.socialIcons]]
 name = "Github"
