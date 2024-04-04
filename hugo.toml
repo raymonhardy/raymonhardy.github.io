@@ -4,8 +4,8 @@ title = "Ray's Blog"
 theme = 'hugo-PaperMod'
 
 [params.homeInfoParams]
-Title = "Welcome!"
-Content = "Cyber security blog"
+Title = "Posts"
+
 
 [[params.socialIcons]]
 name = "Github"
