@@ -74,4 +74,4 @@ In Github.com:
 
 Hope there are good things to come!
 
-![Alt text](/posts/easy-blog-site-creation-with-hugo/good_bad.jpg "a title")
+![Alt text](/posts/easy-blog-site-creation-with-hugo/good-bad.jpg "a title")

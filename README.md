@@ -9,5 +9,8 @@ Personal blog website.
 - [GitHub Pages](https://pages.github.com) - Hosting
   - [GitHub Pages Documentation](https://docs.github.com/en/pages)
 
+## Run Locally
+- `hugo server -D`
+
 ## Instructions
 - [Blog Site Created with Hugo ](https://blog.raymonhardy.com/posts/easy-blog-site-creation-with-hugo/)
