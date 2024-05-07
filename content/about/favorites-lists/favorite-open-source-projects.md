@@ -48,3 +48,5 @@ I will continually update this list of projects I find.
 ### Markdown
 - [Markdown Guide](https://www.markdownguide.org)
   - Free open source guide to writing markdown sheets.
+- [APILayer](https://github.com/public-apis/public-apis)
+  - Explore popular APIs and see them work in Postman. 
