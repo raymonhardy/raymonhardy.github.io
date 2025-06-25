@@ -1,6 +1,6 @@
 
 +++
-title = 'BASpi Installation Guide New'
+title = 'BASpi Installation Guide'
 date = 2022-07-14T07:07:07+01:00
 tags = ['IoT','BACnet']
 draft = false
